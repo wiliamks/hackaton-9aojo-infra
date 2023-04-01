@@ -60,7 +60,7 @@ variable "skip_final_snapshot" {
 
 variable "private_subnets" {
     type = list(string)
-    default = ["subnet-0ad7b507a983fa70d", "subnet-02351bb153ef77807"]
+    default = ["subnet-05e5e44d1f1dca991", "subnet-081b1819287923d4b"]
 }
 
 variable "publicly_accessible" {
