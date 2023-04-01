@@ -20,7 +20,7 @@ variable "engine" {
 
 variable "engine_version" {
     type = string
-    default = "5.7"
+    default = "8.0.23"
 }
 
 variable "instance_class" {
@@ -50,7 +50,7 @@ variable "identifier" {
 
 variable "parameter_group_name" {
     type = string
-    default = "default.mysql5.7"
+    default = "default.mysql8.0"
 }
 
 variable "skip_final_snapshot" {
